@@ -21,19 +21,25 @@
       "title": "Undo Copy From iBooks",
       "description": "Removes copied field from WIP card",
       "mode": "no-view"
+    },
+    {
+      "name": "reset",
+      "title": "Reset Copy From iBooks",
+      "description": "Removes WIP card entirely",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.38.2",
+    "@raycast/api": "^1.40.3",
     "node-fetch": "^3.2.10"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.5.1",
-    "typescript": "^4.4.3"
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "build": "ray build -e dist",
