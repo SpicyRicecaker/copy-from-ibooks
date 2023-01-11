@@ -27,6 +27,12 @@
       "title": "Reset Copy From iBooks",
       "description": "Removes WIP card entirely",
       "mode": "no-view"
+    },
+    {
+      "name": "complete",
+      "title": "Complete Copy From iBooks",
+      "description": "Tries to add card to Anki immediately",
+      "mode": "no-view"
     }
   ],
   "dependencies": {

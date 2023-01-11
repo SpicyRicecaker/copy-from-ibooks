@@ -6,8 +6,7 @@ import { CommandError, ripbk } from '.';
 export default async (): Promise<void> => {
   try {
     execSync('command-c')
-    execSync(`${ripbk} --reset`)
-    showHUD('Reset!')
+    execSync(`${ripbk} --complete`)
   } catch (e: unknown) {
     showHUD(`E: ${(e as CommandError).stderr}`)
   }
